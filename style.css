@@ -21,6 +21,8 @@ body {
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -66,10 +68,15 @@ body {
     text-align: center;
 }
 
-button {
+button,input {
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
